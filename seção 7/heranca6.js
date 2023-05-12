@@ -19,4 +19,5 @@ function novo(f, ...params){
 const aula3 = novo(Aula, 'Bem vindo', 123);
 const aula4 = novo(Aula, 'Até breve', 456);
 
-console.log(aula3, aula4);
+console.log(aula3);
+console.log(aula4);
