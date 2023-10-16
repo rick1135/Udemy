@@ -1,9 +1,9 @@
 function montanteJurosSimples(capitalInicial, taxa, tempo) {
-    return capitalInicial + (capitalInicial * taxa * tempo)
+    return capitalInicial + (capitalInicial * taxa * tempo);
 }
 
 function montanteJurosCompostos(capitalInicial, taxa, tempo) {
-    return capitalInicial * (1 + taxa) ** tempo
+    return capitalInicial * (1 + taxa) ** tempo;
 }
 
 console.log(montanteJurosSimples(100, 10/100, 2));

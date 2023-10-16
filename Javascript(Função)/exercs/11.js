@@ -15,3 +15,4 @@ console.log(anoBissexto(2020));
 console.log(anoBissexto(2021));
 console.log(anoBissexto(2022));
 console.log(anoBissexto(2023));
+console.log(anoBissexto(2024));
