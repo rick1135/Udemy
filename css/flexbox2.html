@@ -6,7 +6,27 @@
     <title>Flexbox #02</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+        div{
+            border: solid 5px dodgerblue;
+        }
+        .flex-container div{
+            box-sizing: border-box;
+            width: 100px;
+            flex-grow: 1;
+        }
+        .flex-container{
+            display: flex;
+            height: 300px;
+            width: 300px;
+        }
+        .flex-container div:nth-child(3){
+            background-color: indianred;
+            order: 0;
+            align-self: center;
+        }
+        .flex-container div:nth-child(1){
+            flex-grow: 2;
+        }
     </style>
 </head>
 
